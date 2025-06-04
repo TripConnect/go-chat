@@ -48,7 +48,7 @@ var ConversationRepository = struct {
 	},
 }
 
-func NewConversationIndex(entity ConversationEntity) ConversationDocument {
+func NewConversationDoc(entity ConversationEntity) ConversationDocument {
 	return ConversationDocument{
 		Id:        entity.Id,
 		AliasId:   entity.AliasId,
